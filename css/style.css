@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,10 +15,10 @@ a {
 }
 
 p {
-    padding: 0.75rem 0;
+    margin: 0.75rem 0;
 }
 
-/* Utlities */
+/* Utility Classes */
 
 .container {
     max-width: 1100px;
@@ -76,7 +76,7 @@ p {
 }
 
 .py-3 {
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .p-1 {
@@ -93,8 +93,8 @@ p {
 
 .btn {
     display: inline-block;
+    color: #fff;
     background: #93cb52;
-    color: white;
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
@@ -106,7 +106,7 @@ p {
 
 .btn-dark {
     background: #333;
-    color: white;
+    color: #fff;
 }
 
 .list {
@@ -126,7 +126,7 @@ p {
     position: sticky;
     top: 0;
     background: #333;
-    color: white;
+    color: #fff;
     justify-content: space-between;
     z-index: 1;
     padding: 1rem;
@@ -139,13 +139,13 @@ p {
 }
 
 #navbar ul li a {
-    color: white;
+    color: #fff;
     padding: 0.75rem;
     margin: 0 0.25rem;
 }
 
 #navbar ul li a:hover {
-    background-color: #93cb52;
+    background: #93cb52;
     border-radius: 5px;
 }
 
@@ -154,7 +154,7 @@ p {
 #showcase {
     background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
-    color: white;
+    color: #fff;
 }
 
 #showcase .showcase-content {
@@ -165,15 +165,16 @@ p {
     align-items: center;
     height: 100%;
     padding: 0 2rem;
+    /* Overlay */
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Section: what we do */
+/* Section: What We Do */
 
 #what .items {
     display: flex;
@@ -193,7 +194,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Section: Who we are */
+/* Section: Who We Are */
 
 #who {
     display: flex;
@@ -207,7 +208,7 @@ p {
     background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
-/* Section:Our Clients */
+/* Section: Clients */
 
 #clients .items {
     display: flex;
